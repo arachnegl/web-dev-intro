@@ -9,6 +9,18 @@ We will always need to do two things:
 - map a url to a view function
 - define the view function 
 
+`website/urls.py`
+=================
+
+This file matches urls to view functions.
+
+When the django server receives a url. It searches in this file for one that
+matches. If it matches it executes the mapped function. If it doesn't find
+anything you get a 404 - page not found error.
+
+
+
+
 Saying hello
 ============
 

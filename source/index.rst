@@ -14,4 +14,5 @@ Contents:
    context
    django_setup
    first_page
+   resources
 
