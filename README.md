@@ -1,6 +1,5 @@
-Intro to Programming using Python
-=================================
-
+Intro to Web Development using Python & Django
+==============================================
 
 To run locally:
 
@@ -9,4 +8,3 @@ To run locally:
     python -m SimpleHTTPServer
 
 
-Inspired by the OpenTechSchool Introduction to programming with python.
