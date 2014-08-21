@@ -108,6 +108,32 @@ A server returns an http response, which the browser then renders as a web page.
 We will see other examples of a client - server architecture when we introduce
 using databases.
 
+HTML
+====
+
+Browsers understand how to render HTML.
+
+HTML is a way to structure text.
+
+.. code-block:: html
+
+    <!doctype html>
+    <html>
+    <head>
+        <title>Example Domain</title>
+    </head>
+    <body>
+    <div>
+        <h1>A Header</h1>
+        <p>Here is some text between p elements</p> 
+    </div>
+    </body>
+    </html>
+
+Note it consists of elements like this: `<el>content<\el>`
+
+We won't delve any deeper than this as we don't need to.
+
 Databases
 =========
 
