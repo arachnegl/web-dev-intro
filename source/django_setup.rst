@@ -173,3 +173,53 @@ You should see:
 .. image:: /images/django-it-worked.png
 
 You can quit the server at any point by pressing together `cntrl + c`
+
+Creating & installing the Blog App
+==================================
+
+Tip:
+
+    Django like any framwork, provides a way of organising your code. It provides
+    in effect a proven architecture which you learn to work within.
+
+    A good webframework makes a lot of decisions for you. You build on the combined
+    experience of the developpers who created it.
+
+Django introduces the concept of an app as a way to organise code.
+
+Our `Blog` will be an app. We create it thusly::
+
+    ./manage.py startapp blog
+
+We now have a foler directory generated looking like::
+
+    ├── blog
+    │   ├── __init__.py
+    │   ├── admin.py
+    │   ├── models.py
+    │   ├── tests.py
+    │   └── views.py
+    ├── db.sqlite3
+    ├── manage.py
+    └── website
+        ├── __init__.py
+        ├── settings.py
+        ├── urls.py
+        └── wsgi.py
+
+We now need to tell our website about the `blog` apps' existence. We do this by
+adding it to the INSTALLED_APPS tuple.
+
+::
+
+    INSTALLED_APPS = (
+        'django.contrib.admin',
+        'django.contrib.auth',
+        'django.contrib.contenttypes',
+        'django.contrib.sessions',
+        'django.contrib.messages',
+        'django.contrib.staticfiles',
+        'website',
+        'blog',
+    )
+
