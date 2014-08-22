@@ -42,7 +42,7 @@ Now we need to configure our website with which request will trigger this view
 function. We do this by adding a line to `website/urls.py`::
 
     urlpatterns = patterns('',
-        url(r'^$', 'blog.views.hello_world'),
+        url(r'^hello$', 'blog.views.hello'),
         url(r'^admin/', include(admin.site.urls)),
     )
 
@@ -122,7 +122,7 @@ the BMI. Both other websites and mobile apps will be using your service.
 
 The endpoint (url) will respond successfully to the following type of url::
 
-    bmi/?mass_kg=75&heigh=182
+    bmi/?mass=75&height=182
 
 Look up the BMI equation on wikipedia, and write a bmi view function and hook
 it up to the website urls.
