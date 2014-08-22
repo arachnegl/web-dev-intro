@@ -9,21 +9,21 @@ Lets create a project directory::
     mkdir website
     cd website
 
-Virtualenv
-==========
-
-Its good practice to setup a sandbox python environment.
-
-We create a local safe python environment in our folder.
-
-We create the new python environment with::
-
-    python -m venv website
-
-You activate or deactivate the python environment::
-
-    $ source website/bin/activate   # activates
-    $ deactivate                    # deactivates
+.. Virtualenv
+.. ==========
+.. 
+.. Its good practice to setup a sandbox python environment.
+.. 
+.. We create a local safe python environment in our folder.
+.. 
+.. We create the new python environment with::
+.. 
+..     python -m venv website
+.. 
+.. You activate or deactivate the python environment::
+.. 
+..     $ source website/bin/activate   # activates
+..     $ deactivate                    # deactivates
 
 Installing Django
 =================
