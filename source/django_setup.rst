@@ -115,6 +115,12 @@ your database.
 Inspecting the Database
 =======================
 
+Download sqlite3 from `www.sqlite.org/download.html`. Choose the
+sqlite-shell-win32-x86-....zip file. Unzip it by double
+clicking it. Then drag and drop into C:\BOOTCAMP\Python34\
+The last step is to add it to a directory on the PATH.
+
+
 A database application is like a server.
 
 We send requests using clients. The clients in this case aren't the browser but

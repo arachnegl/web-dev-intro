@@ -12,6 +12,9 @@ The Internet
 The internet is a network of computers. Its goal is to enable communication
 between them.
 
+A network is composed of nodes and edges. Visually it is a set of dots and
+connections. The London tube map is an example.
+
 Your family, friends, colleagues, and acquaintances can be thought of as 
 a network of people. (This is how social networks model our relationships.)
 
@@ -35,9 +38,10 @@ Http and the Request / Response cycle
 =====================================
 
 To communicate effectively the elements of a network need to agree on some
-protocol. That protocol for humans can be english. Other protocols exist.
+protocol. That protocol for humans can be english but there are other
+'protocols', chinese for example.
 
-Computers on the internet use Http to communicate.
+Many computers on the internet use Http to communicate.
 
 Every time you click on a link, or type a url and enter into a browser, you are
 making what is called an http GET request.
